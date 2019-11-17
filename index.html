@@ -4,7 +4,17 @@
     <meta charset="utf-8">
     <title>CSS Intro</title>
   </head>
-  <link rel="stylesheet" href="./master.css">
+  <link id="regular" rel="stylesheet" href="./master.css" >
+  <script>
+      const resetStyle = () => {
+          let style = document.querySelector("#regular");
+          if(style.disabled) {
+            style.disabled = false
+          } else {
+              style.disable = true
+          };
+      };
+  </script>
   <body>
 
 
@@ -59,5 +69,6 @@
       <input type="text" name="" value="">
       <input type="submit" name="sumbit" value="submit">
     </form>
+    <button onclick="resetStyle()"> Reset now</button>
   </body>
 </html>
