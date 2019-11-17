@@ -1,0 +1,110 @@
+/* question 1 
+Change the font of the name header. Bonus points for importing a font from google fonts */
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+h1{ 
+    color: red; font: 21px "Varela Round", arial, sans-serif; 
+    font-weight: normal; 
+    font-size: 25px;
+}
+/* Question 2
+Change the font color of your name to your favorite color. */
+/* red */
+
+/* Question 3 */
+/* Remove the bullet points from your unordered list of links. */
+.links{
+    list-style: none;
+}
+/* Question 4 */
+/* Change the font weight in your ordered list. */
+
+ol{
+    font-weight: 700;
+}
+
+/* Question 5 */
+/* Center all li items on the page. */
+li{
+    text-align:  center;
+    border-radius: 25px;
+    border: 1px solid red;
+    color: blue;
+    background: pink;
+    padding-left: 30px;
+
+
+}
+
+/* Question 6
+Give your li's a 1px red boarder with curved corners. */
+/* answered in line 28 */
+
+/* Question 7
+Change the font color of your li's to blue and the background color to a light pink. */
+/* answerted in line 30 and 31 */
+
+/* Question 8
+Change the size of the picture to a reasonable size and center it on the page. */
+
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto ;  
+}
+
+/* Question 9
+Change all font to sans-serif. */
+body{
+    font-family: sans-serif;
+    background-color: yellow ;
+    background-image: linear-gradient(yellow, green);
+    
+}
+
+/* Question 10
+Underline all h3's. */
+h3{
+    text-decoration: underline;
+}
+
+/* Question 11
+Give your page a background color. Then, make it a gradient */
+/* answered in line 58 and 59*/
+
+/* Question 12
+All text should be sans-serif. 
+Most default text rendering in browsers (without an explicit CSS file) renders 
+text in serif font. */
+
+/* Question 13
+All p tags should have 20 pixels of padding on the top and the bottom - not on the sides. */
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/* Question 14
+All images should be 200 pixels tall.
+answered in question 49 */
+
+/* Question 15
+Header tags (h1, h2, etc.) should be closer in size to each other. 
+h1 should have a 25px font size and all other h tags to have a 20px font size. */
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+/* Question 16
+Lists should have 30px of padding on the left. */
+/* answered in line 34 */
+
+/* Question 17
+Add a button that removes all styles entirely. 
+Clicking the button again should replace them. */
